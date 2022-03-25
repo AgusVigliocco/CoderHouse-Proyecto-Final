@@ -1,11 +1,11 @@
 {
   "name": "proyecto-final-coderhouse",
   "version": "1.0.0",
-  "description": "",
+  "description": "pagina web tintoreria El Cerro",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Agustin Vigliocco agusvigliocco@icoud.com https://github.com/AgusVigliocco/CoderHouse-Proyecto-Final/",
   "license": "ISC"
 }
