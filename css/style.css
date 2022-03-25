@@ -52,7 +52,7 @@ header nav div div ul .nav-item:hover {
   flex-direction: column;
   align-items: center;
   height: 500px;
-  background-image: url(../../imagenes/tinto-banner.jpg);
+  background-image: url("../imagenes/tinto-banner.jpg");
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
