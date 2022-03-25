@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+#productos .titulo-productos, #clientes h2, main .titulo-servicios, .banner-tinto .banner-titulo {
+  text-align: center;
+  font-size: 5vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header nav div a .menu-logo {
+  border-radius: 50%;
+  max-width: 35%;
+  max-height: 35%;
+}
+header nav div div ul .nav-item {
+  margin: 0px 15px 0 15px;
+  padding: 0px 5px 0px 5px;
+  transition: all 200ms;
+}
+header nav div div ul .nav-item:hover {
+  transform: scale(1.2);
+  color: #0d0221;
+}
+@media only screen and (max-width: 768px) {
+  header nav div div ul .nav-item:hover {
+    transform: scale(1.02);
+  }
+}
+.banner-tinto {
+  display: flex;
+  justify-content: initial;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background-image: url("../../imagenes/tinto-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+@media only screen and (max-width: 768px) {
+  .banner-tinto {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.banner-tinto .banner-titulo {
+  /* background-color: rgba(255, 255, 255, 0.178); */
+}
+@media only screen and (max-width: 768px) {
+  .banner-tinto .banner-titulo {
+    font-size: 4vw;
+  }
+}
+.banner-tinto .banner-info {
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+@media only screen and (max-width: 768px) {
+  .banner-tinto .banner-info {
+    font-size: 3vw;
+  }
+}
+
+#productos .titulo-productos, #clientes h2, main .titulo-servicios, .banner-tinto .banner-titulo {
+  text-align: center;
+  font-size: 5vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+main .titulo-servicios {
+  padding-top: 100px;
+}
+main .contenedor-servicios {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  text-align: center;
+  /* margin-top: 100px; */
+}
+@media only screen and (max-width: 768px) {
+  main .contenedor-servicios {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+main .contenedor-servicios .contenedor-tarj {
+  overflow: visible;
+}
+main .contenedor-servicios .contenedor-tarj span .imag-servicios {
+  max-width: 10rem;
+  transition: all 200ms;
+}
+main .contenedor-servicios .contenedor-tarj span .imag-servicios:hover {
+  transform: scale(1.05);
+}
+@media only screen and (max-width: 768px) {
+  main .contenedor-servicios .contenedor-tarj span .imag-servicios {
+    max-width: 10rem;
+  }
+}
+main .contenedor-servicios .contenedor-tarj .subt-serviciosh3 {
+  text-align: center;
+}
+main .contenedor-servicios .contenedor-tarj .parrafo-servicios {
+  text-align: center;
+}
+
+#productos .titulo-productos, #clientes h2, .banner-tinto .banner-titulo, main .titulo-servicios {
+  text-align: center;
+  font-size: 5vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+.contenedor-tarjetas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tarjeta {
+  margin: 40px;
+  position: relative;
+  max-width: 250px;
+  max-height: 350px;
+  box-shadow: 0 40px 60px -6px black;
+}
+.tarjeta img {
+  width: 15rem;
+  height: 16rem;
+  object-fit: fill;
+  display: block;
+  position: relative;
+}
+.tarjeta:hover .descrip-tarjeta {
+  opacity: 1;
+  height: 100%;
+}
+
+.titulo-tarjeta {
+  display: block;
+  text-align: center;
+  color: #c2e7d9;
+  background-color: #0f084b;
+  padding: 2%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.descrip-tarjeta {
+  display: block;
+  font-size: 1.2rem;
+  position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  padding: 18px 8%;
+  background-color: #c2e7d9;
+  overflow-y: scroll;
+  transition: 0.8s ease;
+}
+
+#clientes {
+  /* background-color: whitesmoke; */
+}
+#clientes .grilla-clientes {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  /* gap: 1rem; */
+  grid-auto-flow: dense;
+  grid-auto-rows: 10rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+@media only screen and (max-width: 768px) {
+  #clientes .grilla-clientes {
+    grid-auto-rows: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+  }
+}
+#clientes .grilla-clientes img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  box-shadow: 4px 4px 8px black;
+}
+
+#productos .titulo-productos, .banner-tinto .banner-titulo, main .titulo-servicios, #clientes h2 {
+  text-align: center;
+  font-size: 5vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  #productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#productos .contenedor-carrusel {
+  width: 30%;
+}
+
+.banner-tinto .banner-titulo, main .titulo-servicios, #clientes h2, #productos .titulo-productos {
+  text-align: center;
+  font-size: 5vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#pedidos .contenedor-form div div div form fieldset legend, .banner-tinto .banner-info, #productos .subtitulo-productos {
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#pedidos .contenedor-form {
+  display: flex;
+  justify-content: center;
+}
+#pedidos .contenedor-form div div div form fieldset .apli-flex {
+  background-color: #a6cfd5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: -webkit-center;
+}
+
+.banner-tinto .banner-titulo, main .titulo-servicios, #clientes h2, #productos .titulo-productos {
+  text-align: center;
+  font-size: 5vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+.banner-tinto .banner-info, #productos .subtitulo-productos, #pedidos .contenedor-form div div div form fieldset legend {
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#footer {
+  position: absolute;
+  background: #26408b;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: #26408b;
+}
+#footer .titulo-footer {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  color: #c2e7d9;
+  text-align: center;
+}
+#footer .info-footer {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: #c2e7d9;
+  text-align: center;
+}
+#footer div .redes-sociales {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+#footer div .redes-sociales li {
+  margin: 0 5px;
+}
+#footer div .redes-sociales li a {
+  text-decoration: none;
+  color: #a6cfd5;
+  padding: 20px;
+  border-radius: 50%;
+  transition: 300ms;
+}
+#footer div .redes-sociales li a:hover {
+  color: #0f084b;
+}
+
+/*# sourceMappingURL=style.css.map */

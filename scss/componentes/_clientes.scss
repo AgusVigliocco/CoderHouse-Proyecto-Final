@@ -1,0 +1,27 @@
+#clientes {
+  /* background-color: whitesmoke; */
+  h2 {
+    @extend %titulos;
+  }
+  .grilla-clientes {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* gap: 1rem; */
+    grid-auto-flow: dense;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+
+    @media only screen and (max-width: 768px) {
+      grid-auto-rows: 3rem;
+      grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+    }
+
+    img {
+      width: 50%;
+      height: 50%;
+      object-fit: contain;
+      box-shadow: 4px 4px 8px black;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@import "../base/variables";
+@import "../base/extends";
+
+main {
+  .titulo-servicios {
+    padding-top: 100px;
+    @extend %titulos;
+  }
+
+  .contenedor-servicios {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    text-align: center;
+    /* margin-top: 100px; */
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: space-evenly;
+      flex-wrap: nowrap;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .contenedor-tarj {
+      overflow: visible;
+
+      span {
+        .imag-servicios {
+          max-width: 10rem;
+          transition: all 200ms;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+          @media only screen and (max-width: 768px) {
+            max-width: 10rem;
+          }
+        }
+      }
+      .subt-serviciosh3 {
+        text-align: center;
+      }
+      .parrafo-servicios {
+        text-align: center;
+      }
+    }
+  }
+}

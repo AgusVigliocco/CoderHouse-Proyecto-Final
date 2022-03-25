@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+@import "../scss/base/variables";
+@import "../scss/base/extends";
+@import "../scss/componentes/header";
+@import "../scss/componentes/banner";
+@import "../scss/componentes/navmenu";
+@import "../scss/componentes/proceso";
+@import "../scss/componentes/servicios";
+@import "../scss/componentes/clientes";
+@import "../scss/componentes/productos";
+@import "../scss/componentes/formulario";
+@import "../scss/componentes/footer";

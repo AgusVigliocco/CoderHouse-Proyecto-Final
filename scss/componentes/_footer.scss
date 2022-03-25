@@ -1,0 +1,45 @@
+@import "../base/extends";
+@import "../base/variables";
+
+#footer {
+  position: absolute;
+  background: $color-tercero;
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: $color-tercero;
+  .titulo-footer {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: $color-quinto;
+    text-align: center;
+  }
+  .info-footer {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    color: $color-quinto;
+    text-align: center;
+  }
+  div {
+    .redes-sociales {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 3rem 0;
+      li {
+        margin: 0 5px;
+        a {
+          text-decoration: none;
+          color: $color-cuarto;
+          padding: 20px;
+          border-radius: 50%;
+          transition: 300ms;
+          &:hover {
+            color: $color-segundo;
+          }
+        }
+      }
+    }
+  }
+}

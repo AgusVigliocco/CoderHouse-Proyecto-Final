@@ -1,0 +1,23 @@
+@import "../base/variables";
+@import "../base/extends";
+
+#productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo-productos {
+    @extend %titulos;
+  }
+  .subtitulo-productos {
+    @extend %subtitulos;
+  }
+  .contenedor-carrusel {
+    width: 30%;
+  }
+}

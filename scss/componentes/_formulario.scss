@@ -1,0 +1,29 @@
+@import "../base/extends";
+@import "../base/variables";
+
+#pedidos {
+  .contenedor-form {
+    display: flex;
+    justify-content: center;
+    div {
+      div {
+        div {
+          form {
+            fieldset {
+              legend {
+                @extend %subtitulos;
+              }
+              .apli-flex {
+                background-color: $color-cuarto;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: -webkit-center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

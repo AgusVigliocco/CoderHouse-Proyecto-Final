@@ -1,0 +1,17 @@
+@import "../base/variables";
+
+%titulos {
+  text-align: center;
+  font-size: $tamano-titulo;
+  font-style: normal;
+  color: $color-tercero;
+  text-shadow: 1px 1px 2px black;
+}
+
+%subtitulos {
+  text-align: center;
+  font-size: $tamano-subtitulo;
+  font-style: normal;
+  color: $color-tercero;
+  text-shadow: 1px 1px 2px black;
+}
