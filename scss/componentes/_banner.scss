@@ -1,4 +1,5 @@
 @import "../base/variables";
+@import "../base/extends";
 
 .banner-tinto {
   display: flex;
@@ -17,15 +18,15 @@
     background-size: cover;
   }
   .banner-titulo {
+    background-color: rgba(255, 255, 255, 0.3);
     @extend %titulos;
-    /* background-color: rgba(255, 255, 255, 0.178); */
     @media only screen and (max-width: 768px) {
       font-size: $tamano-subtitulo;
     }
   }
   .banner-info {
+    background-color: rgba(255, 255, 255, 0.3);
     @extend %subtitulos;
-    /* background-color: rgba(0, 0, 0, 0.8); */
     @media only screen and (max-width: 768px) {
       font-size: $tamano-parrafo;
     }
