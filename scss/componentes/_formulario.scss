@@ -14,11 +14,19 @@
                 @extend %subtitulos;
               }
               .apli-flex {
+                padding: 10px 0 30px 0;
                 background-color: $color-cuarto;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 text-align: -webkit-center;
+                .datos-pedidos {
+                  padding: 10px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  flex-direction: row;
+                  justify-content: center;
+                }
               }
             }
           }

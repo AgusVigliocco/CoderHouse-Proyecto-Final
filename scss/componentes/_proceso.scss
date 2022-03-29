@@ -1,7 +1,7 @@
 @import "../base/variables";
 @import "../base/extends";
 
-main {
+#proceso {
   .titulo-servicios {
     padding-top: 100px;
     @extend %titulos;
