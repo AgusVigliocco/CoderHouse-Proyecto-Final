@@ -6,7 +6,10 @@
   font-family: "Oswald", sans-serif;
 }
 
-#productos .titulo-productos, #clientes h2, #proceso .titulo-servicios, .banner-tinto .banner-titulo {
+#productos .titulo-productos,
+#clientes h2,
+#proceso .titulo-servicios,
+.banner-tinto .banner-titulo {
   text-align: center;
   font-size: 5vw;
   font-style: normal;
@@ -14,7 +17,9 @@
   text-shadow: 1px 1px 2px black;
 }
 
-#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+#pedidos .contenedor-form div div div form fieldset legend,
+#productos .subtitulo-productos,
+.banner-tinto .banner-info {
   text-align: center;
   font-size: 4vw;
   font-style: normal;
@@ -46,7 +51,10 @@ header nav div div ul .nav-item:hover {
     transform: scale(1.02);
   }
 }
-#productos .titulo-productos, #clientes h2, #proceso .titulo-servicios, .banner-tinto .banner-titulo {
+#productos .titulo-productos,
+#clientes h2,
+#proceso .titulo-servicios,
+.banner-tinto .banner-titulo {
   text-align: center;
   font-size: 5vw;
   font-style: normal;
@@ -54,7 +62,9 @@ header nav div div ul .nav-item:hover {
   text-shadow: 1px 1px 2px black;
 }
 
-#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+#pedidos .contenedor-form div div div form fieldset legend,
+#productos .subtitulo-productos,
+.banner-tinto .banner-info {
   text-align: center;
   font-size: 4vw;
   font-style: normal;
@@ -97,7 +107,10 @@ header nav div div ul .nav-item:hover {
   }
 }
 
-#productos .titulo-productos, #clientes h2, #proceso .titulo-servicios, .banner-tinto .banner-titulo {
+#productos .titulo-productos,
+#clientes h2,
+#proceso .titulo-servicios,
+.banner-tinto .banner-titulo {
   text-align: center;
   font-size: 5vw;
   font-style: normal;
@@ -105,7 +118,9 @@ header nav div div ul .nav-item:hover {
   text-shadow: 1px 1px 2px black;
 }
 
-#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+#pedidos .contenedor-form div div div form fieldset legend,
+#productos .subtitulo-productos,
+.banner-tinto .banner-info {
   text-align: center;
   font-size: 4vw;
   font-style: normal;
@@ -158,7 +173,10 @@ header nav div div ul .nav-item:hover {
   text-align: center;
 }
 
-#productos .titulo-productos, #clientes h2, .banner-tinto .banner-titulo, #proceso .titulo-servicios {
+#productos .titulo-productos,
+#clientes h2,
+.banner-tinto .banner-titulo,
+#proceso .titulo-servicios {
   text-align: center;
   font-size: 5vw;
   font-style: normal;
@@ -166,7 +184,9 @@ header nav div div ul .nav-item:hover {
   text-shadow: 1px 1px 2px black;
 }
 
-#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+#pedidos .contenedor-form div div div form fieldset legend,
+#productos .subtitulo-productos,
+.banner-tinto .banner-info {
   text-align: center;
   font-size: 4vw;
   font-style: normal;
@@ -248,7 +268,10 @@ header nav div div ul .nav-item:hover {
   box-shadow: 4px 4px 8px black;
 }
 
-#productos .titulo-productos, .banner-tinto .banner-titulo, #proceso .titulo-servicios, #clientes h2 {
+#productos .titulo-productos,
+.banner-tinto .banner-titulo,
+#proceso .titulo-servicios,
+#clientes h2 {
   text-align: center;
   font-size: 5vw;
   font-style: normal;
@@ -256,7 +279,9 @@ header nav div div ul .nav-item:hover {
   text-shadow: 1px 1px 2px black;
 }
 
-#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+#pedidos .contenedor-form div div div form fieldset legend,
+#productos .subtitulo-productos,
+.banner-tinto .banner-info {
   text-align: center;
   font-size: 4vw;
   font-style: normal;
@@ -286,7 +311,10 @@ header nav div div ul .nav-item:hover {
   }
 }
 
-.banner-tinto .banner-titulo, #proceso .titulo-servicios, #clientes h2, #productos .titulo-productos {
+.banner-tinto .banner-titulo,
+#proceso .titulo-servicios,
+#clientes h2,
+#productos .titulo-productos {
   text-align: center;
   font-size: 5vw;
   font-style: normal;
@@ -294,7 +322,9 @@ header nav div div ul .nav-item:hover {
   text-shadow: 1px 1px 2px black;
 }
 
-#pedidos .contenedor-form div div div form fieldset legend, .banner-tinto .banner-info, #productos .subtitulo-productos {
+#pedidos .contenedor-form div div div form fieldset legend,
+.banner-tinto .banner-info,
+#productos .subtitulo-productos {
   text-align: center;
   font-size: 4vw;
   font-style: normal;
@@ -308,7 +338,7 @@ header nav div div ul .nav-item:hover {
 }
 #pedidos .contenedor-form div div div form fieldset .apli-flex {
   padding: 10px 0 30px 0;
-  background-color: #ee6c4d;
+  background-color: #98c1d9;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -322,7 +352,10 @@ header nav div div ul .nav-item:hover {
   justify-content: center;
 }
 
-.banner-tinto .banner-titulo, #proceso .titulo-servicios, #clientes h2, #productos .titulo-productos {
+.banner-tinto .banner-titulo,
+#proceso .titulo-servicios,
+#clientes h2,
+#productos .titulo-productos {
   text-align: center;
   font-size: 5vw;
   font-style: normal;
@@ -330,7 +363,9 @@ header nav div div ul .nav-item:hover {
   text-shadow: 1px 1px 2px black;
 }
 
-.banner-tinto .banner-info, #productos .subtitulo-productos, #pedidos .contenedor-form div div div form fieldset legend {
+.banner-tinto .banner-info,
+#productos .subtitulo-productos,
+#pedidos .contenedor-form div div div form fieldset legend {
   text-align: center;
   font-size: 4vw;
   font-style: normal;
@@ -340,11 +375,11 @@ header nav div div ul .nav-item:hover {
 
 #footer {
   position: absolute;
-  background: #ee6c4d;
+  background: #98c1d9;
   height: auto;
   width: 100%;
   padding-top: 40px;
-  color: #204b4d;
+  color: #e0fbfc;
 }
 #footer .titulo-footer {
   font-size: 1.6rem;
@@ -376,7 +411,7 @@ header nav div div ul .nav-item:hover {
   transition: 300ms;
 }
 #footer div .redes-sociales li a:hover {
-  color: #0877b8;
+  color: #ee6c4d;
 }
 
 /*# sourceMappingURL=style.css.map */
