@@ -46,6 +46,22 @@ header nav div div ul .nav-item:hover {
     transform: scale(1.02);
   }
 }
+#productos .titulo-productos, #clientes h2, main .titulo-servicios, .banner-tinto .banner-titulo {
+  text-align: center;
+  font-size: 5vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
+#pedidos .contenedor-form div div div form fieldset legend, #productos .subtitulo-productos, .banner-tinto .banner-info {
+  text-align: center;
+  font-size: 4vw;
+  font-style: normal;
+  color: #26408b;
+  text-shadow: 1px 1px 2px black;
+}
+
 .banner-tinto {
   display: flex;
   justify-content: initial;
@@ -65,7 +81,7 @@ header nav div div ul .nav-item:hover {
   }
 }
 .banner-tinto .banner-titulo {
-  /* background-color: rgba(255, 255, 255, 0.178); */
+  background-color: rgba(255, 255, 255, 0.3);
 }
 @media only screen and (max-width: 768px) {
   .banner-tinto .banner-titulo {
@@ -73,7 +89,7 @@ header nav div div ul .nav-item:hover {
   }
 }
 .banner-tinto .banner-info {
-  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: rgba(255, 255, 255, 0.3);
 }
 @media only screen and (max-width: 768px) {
   .banner-tinto .banner-info {
@@ -262,7 +278,12 @@ main .contenedor-servicios .contenedor-tarj .parrafo-servicios {
   }
 }
 #productos .contenedor-carrusel {
-  width: 30%;
+  width: 40%;
+}
+@media only screen and (max-width: 768px) {
+  #productos .contenedor-carrusel {
+    width: 60%;
+  }
 }
 
 .banner-tinto .banner-titulo, main .titulo-servicios, #clientes h2, #productos .titulo-productos {
